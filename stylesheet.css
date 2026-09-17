@@ -1,8 +1,22 @@
 form, label{
   display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 form{
   max-width: 250px;
   gap: 12px;
+}
+
+.name, .contact, .user-password {
+  display: flex;
+  gap: 15px;
+}
+
+button{
+  width: 120px;
+  font-size: 12px;
+  padding: 5px 10px; 
 }

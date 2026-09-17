@@ -15,6 +15,31 @@ body{
   width: 500px;
 }
 
+.border{
+  position: relative;
+  top: 180px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+img{
+  position:absolute;
+  top: 200px;
+  left: 80px;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.title{
+  position:absolute;
+  top: 170px;
+  left: 215px;
+  color: white;
+  font-size: 55px;
+  font-family:"Agbalumo", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 form, label{
   display: flex;
   flex-direction: column;
@@ -24,6 +49,7 @@ form, label{
 
 form{
   position: absolute;
+  top: 150px;
   left: 525px;
   max-width: 500px;
   gap: 12px;

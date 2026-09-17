@@ -1,22 +1,44 @@
+body{
+  margin: 0;
+}
+
+.container{
+  position: relative;
+}
+
+.background-image{
+  background-image: url("background-leaf.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: absolute;
+  height: 100vh;
+  width: 500px;
+}
+
 form, label{
   display: flex;
   flex-direction: column;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
 }
 
 form{
-  max-width: 250px;
+  position: absolute;
+  left: 525px;
+  max-width: 500px;
   gap: 12px;
 }
 
 .name, .contact, .user-password {
   display: flex;
-  gap: 15px;
+  gap: 50px;
+  margin-bottom: 10px;
 }
 
 button{
   width: 120px;
   font-size: 12px;
   padding: 5px 10px; 
+  background-color: #9a4e30;
+  border-radius: 5px;
 }
